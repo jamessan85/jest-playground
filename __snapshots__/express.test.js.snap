@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET / Should return a pokemon 1`] = `
+"<h1>Pokemon</h1>
+
+<h2>bob</h2>
+<img src="http://testimage" height="300px" width="300px">
+<h2>Stats</h2>
+<ul>
+    <li>Height: 200
+    </li>
+    <li>Weight: 200
+    </li>
+</ul>"
+`;
+
+exports[`GET / Should return an error 1`] = `
+"<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Error: Pokemon not found<br> &nbsp; &nbsp;at /Users/Jamsa/Development/jest-testing/express.js:22:21<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:95:5)</pre>
+</body>
+</html>
+"
+`;
+
+exports[`GET / Should return donkey 1`] = `
+"<h1>Pokemon</h1>
+
+<h2>bob</h2>
+<img src="http://testimage" height="300px" width="300px">
+<h2>Stats</h2>
+<ul>
+    <li>Height: 200
+    </li>
+    <li>Weight: 200
+    </li>
+</ul>"
+`;
